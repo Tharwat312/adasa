@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-neutral-950 text-white
+}
+
+.flex-space-between {
+    @apply flex items-center justify-between
+}
+
+.fixed-navbar-top {
+    @apply fixed top-0 left-0 right-0 z-50
+}
+
+.row {
+    @apply flex flex-wrap justify-center items-center
+}
